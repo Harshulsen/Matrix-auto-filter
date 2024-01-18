@@ -87,9 +87,9 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
     EXTRAMOD_TXT = """ʜᴇʟᴘ: Exᴛʀᴀ Mᴏᴅᴜʟᴇs
 <b>ɴᴏᴛᴇ:</b>
 my features Stay here new features coming soon...  
- <b>✯ Maintained by : <a href=http://t.me/Harshulsen>☢VJ☢</a></b>
+ <b>✯ Maintained by : <a href=http://t.me/Harshulsen>☢MKV☢</a></b>
   
- <b>✯ Join here : <a href=https://t.me/vj_bots>☢Join my updateds☢</a></b> 
+ <b>✯ Join here : <a href=https://t.me/Mkvmovie01>☢Join my updateds☢</a></b> 
   
  ./id - <code>ɢᴇᴛ ɪᴅ ᴏꜰ ᴀ ꜱᴘᴇᴄɪꜰɪᴇᴅ ᴜꜱᴇʀ.</ 
  code> 
@@ -678,11 +678,11 @@ special Thanks To ❤️ Developers -
 
 -Dev 1 [Owner of this bot ]<a href='http://t.me/Harshulsen'>ⁱᵗᶻ ᵐᵉ ᵗᵍ 🇮🇳</a>
 
--Dev 2 <a href='https://t.me/mkvbt'>VJ</a>
+-Dev 2 <a href='https://t.me/mkvbt'>MKV</a>
 
 -Dev 3 <a href='https://t.me/mkvg2>Jᴏᴇʟ </> TɢX</a>
 
-- Dev 4 <a href='http://t.me/Harshulsen'>TEAM VJ</a>
+- Dev 4 <a href='http://t.me/Harshulsen'>MKV</a>
 """
 
 
