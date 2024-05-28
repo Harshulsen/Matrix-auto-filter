@@ -13,10 +13,11 @@ API = "https://apis.xditya.me/lyrics?song="
 
 @Client.on_message(filters.text & filters.command(["lyrics"]))
 async def sng(bot, message):
-        mkv = await bot.ask(chat_id=message.from_user.id, text="Now send me your song name.")
-    if mkv.text:          
-          mee = await mkv.reply_text("`Searching 🔎`")
-          song = mkv.text
+        if not message.reply_to_message:
+          await message.reply_text("Please reply to a message")
+        else:          
+          mee = await message.reply_text("`Searching 🔎`")
+          song = message.reply_to_message.text
           chat_id = message.from_user.id
           rpl = lyrics(song)
           await mee.delete()
@@ -24,9 +25,7 @@ async def sng(bot, message):
             await mee.delete()
             await bot.send_message(chat_id, text = rpl, reply_to_message_id = message.id, reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs ", url = f"t.me/Mkvmovie01")]]))
           except Exception as e:                            
-             await mkv.reply_text(f"I Can't Find A Song With `{song}`", quote = True, reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url = f"t.me/Mkvmovie01")]])) 
-    else:
-        await mkv.reply_text("Send me only text Buddy.")
+             await message.reply_text(f"I Can't Find A Song With `{song}`", quote = True, reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url = f"t.me/Mkvmovie01")]]))
 
 
 def search(song):
